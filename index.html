@@ -1,42 +1,52 @@
-<div class="auth-container">
-    <input type="checkbox" id="toggle" hidden>
-    <div class="form" id="login-form">
-        <h2>Увійти</h2>
-        <form>
-            <div class="form-group">
-                <label for="login-email">Електронна пошта:</label>
-                <input type="email" id="login-email" name="email" required>
-            </div>
-            <div class="form-group">
-                <label for="login-password">Пароль:</label>
-                <input type="password" id="login-password" name="password" required>
-            </div>
-            <button type="submit">Увійти</button>
-            <p class="toggle-text">Бажаєте зареєструватися? <label for="toggle">Зареєструватися</label></p>
-        </form>
-    </div>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Увійти / Зареєструватися</title>
+</head>
+<body>
+    <div class="auth-container">
+        <input type="checkbox" id="toggle" hidden>
+        <div class="form" id="login-form">
+            <h2>Увійти</h2>
+            <form>
+                <div class="form-group">
+                    <label for="login-email">Електронна пошта:</label>
+                    <input type="email" id="login-email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="login-password">Пароль:</label>
+                    <input type="password" id="login-password" name="password" required>
+                </div>
+                <button type="submit">Увійти</button>
+                <p class="toggle-text">Бажаєте зареєструватися? <label for="toggle">Зареєструватися</label></p>
+            </form>
+        </div>
 
-    <div class="form" id="registration-form">
-        <h2>Реєстрація</h2>
-        <form>
-            <div class="form-group">
-                <label for="username">Ім’я користувача:</label>
-                <input type="text" id="username" name="username" required>
-            </div>
-            <div class="form-group">
-                <label for="email">Електронна пошта:</label>
-                <input type="email" id="email" name="email" required>
-            </div>
-            <div class="form-group">
-                <label for="password">Пароль:</label>
-                <input type="password" id="password" name="password" required>
-            </div>
-            <div class="form-group">
-                <label for="confirm-password">Підтвердьте пароль:</label>
-                <input type="password" id="confirm-password" name="confirm-password" required>
-            </div>
-            <button type="submit">Зареєструватися</button>
-            <p class="toggle-text">Вже зареєстровані? <label for="toggle">Увійти</label></p>
-        </form>
+        <div class="form" id="registration-form">
+            <h2>Реєстрація</h2>
+            <form>
+                <div class="form-group">
+                    <label for="username">Ім’я користувача:</label>
+                    <input type="text" id="username" name="username" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Електронна пошта:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="password">Пароль:</label>
+                    <input type="password" id="password" name="password" required>
+                </div>
+                <div class="form-group">
+                    <label for="confirm-password">Підтвердьте пароль:</label>
+                    <input type="password" id="confirm-password" name="confirm-password" required>
+                </div>
+                <button type="submit">Зареєструватися</button>
+                <p class="toggle-text">Вже зареєстровані? <label for="toggle">Увійти</label></p>
+            </form>
+        </div>
     </div>
-</div>
+</body>
+</html>
